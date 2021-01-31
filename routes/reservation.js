@@ -84,7 +84,6 @@ router.post('/savereservation',(req,res) => {
                       
                     });
                 }else{
-                    achkayen = '9awedtiha';
                     alertmsg = '';
                     res.render('confirmation',{
                         title : 'CRUD Operation using NodeJS / ExpressJS / MySQL',
